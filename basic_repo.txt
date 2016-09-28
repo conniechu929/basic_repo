@@ -1,0 +1,13 @@
+cd ./documents
+mkdir basic_repo
+cd ./basic_repo
+touch basic.html
+touch basic.css
+touch basic_repo.txt
+git status
+git add .
+git commit -m “Initial commit”
+git remote add origin https://github.com/conniechu929/basic_repo.git
+git push -u origin master
+git status
+git add .
